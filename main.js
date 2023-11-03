@@ -71,7 +71,7 @@ function rendering(array) {
             box.appendChild(mainDiv)
             found = true
         })
-
+        loading.classList.remove('none')
         if (found) {
             loading.classList.add('none')
         } else {
